@@ -10,3 +10,61 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.rounded-circle{
+    width: 8rem;
+    height: 8rem;
+}
+
+.glowRed{
+    box-shadow: 0 0 40px 20px rgb(158, 12, 12);
+    /* animation: glow 3seg linear infinite alternate; */
+}
+.glowGreen{
+    box-shadow: 0 0 40px 20px rgb(12, 158, 85);
+
+}
+.glowYellow{
+    box-shadow: 0 0 40px 20px rgb(158, 148, 12);
+}
+.lightTop{
+    background-color: green;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin: 5px;
+}
+
+.lightMedium{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin: 5px;
+
+}
+.lightButton{
+    background-color: red;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin: 5px;
+}
+
+.base{
+    background-color: black;
+    width:  50px;
+    height: 150px;
+    margin-left: 48%;
+}
+.trafficLight{
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    border-radius: 10%;
+    width: 11rem;
+    height: 27rem;
+    
+   
+}
